@@ -1,0 +1,40 @@
+body{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(94, 179, 253);
+}
+
+.inputs{
+    text-align: center;
+}
+
+input[type="text"]{
+    height: 4rem;
+    width: 25rem;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(182, 215, 243);
+    color: #000;
+    font-size: 1.5rem;
+}
+
+input[type="button"]{
+    height: 4rem;
+    width: 9rem;
+    padding: 0 20px;
+    border: none;
+    border-radius: 150px;
+    background-color: rgb(182, 215, 243);
+    color: #000;
+    font-size: 1.3rem;
+}
+
+.display-weather-container{
+    text-align: center;
+}
