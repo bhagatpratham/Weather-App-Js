@@ -1,16 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300&display=swap');
+
+:root{
+    --bg_main: #0a1f44;
+    --text_light: #fff;
+    --text_dark: #000;
+    --text_sky: rgb(94, 179, 253);
+}
+
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    background: linear-gradient(270deg, #c13939, #363fc1);
+    background-size: 400% 400%;
+    background-position: 100%;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 60vw;
+    height: 80vh;
+    background: var(--text_light);
+    border-radius: 20px;
 }
 
 h1{
     text-align: center;
-    color: rgb(94, 179, 253);
+    font-size: 3.4rem;
+    color: var(--text_dark);
+    letter-spacing: 2px;
 }
 
 .inputs{
     text-align: center;
+    padding: 20px;
 }
 
 input[type="text"]{
@@ -19,22 +43,38 @@ input[type="text"]{
     padding: 0 20px;
     border: none;
     border-radius: 20px;
-    background-color: rgb(182, 215, 243);
-    color: #000;
+    background-color: var(--text_light);
     font-size: 1.5rem;
 }
 
 input[type="button"]{
-    height: 4rem;
-    width: 9rem;
+    height: 2rem;
+    width: 7rem;
     padding: 0 20px;
     border: none;
-    border-radius: 150px;
-    background-color: rgb(182, 215, 243);
-    color: #000;
+    border-radius: 10px;
+    background-color: var(--text_dark);
+    color: var(--text_light);
     font-size: 1.3rem;
 }
 
 .display-weather-container{
     text-align: center;
 }
+
+p{
+    font-size: 1.5rem;
+    color: var(--text_dark);
+    font-weight: lighter;
+}
+
+h2{
+    color: var(--text_dark);
+    font-weight: 100;
+    font-weight: lighter;
+}
+
+.weather_icon{
+    display: inline;
+}
+
