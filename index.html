@@ -8,17 +8,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Check Weather</h1>
-    <div class="inputs">
-        <input type="text" placeholder="Enter a City" class="inputValue">
-        <input type="button" value="Search" class="submitBtn">
-    </div>
+    <div class="container">
+        <h1>Check Weather</h1>
+        <div class="inputs">
+            <input type="text" placeholder="Enter a City" class="inputValue">
+            <input type="button" value="Search" class="submitBtn">
+        </div>
 
-    <div class="display-weather-container">
-        <h2 class="cityName"></h2>
-        <p class="temperature"></p>
-        <p class="description"></p>
-    </div>
+        <div class="display-weather-container">
+            <h2 class="cityName">City: </h2>
+            <p class="temperature">Temperature: </p>
+            <p class="description">Status: </p>
+        </div>
 
+        <!-- <div class="data-container">
+            <h2>City: </h2>
+            <p>Temperature: </p>
+            <p>Status: </p>
+        </div> -->
+    </div>
     <script src="app.js"></script>
 </body>
